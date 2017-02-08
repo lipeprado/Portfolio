@@ -7,3 +7,103 @@
     font-family: $font-principal;
     color: $cor-principal;
 }
+#bg_all{
+    background-image: url(../../img/pattern.gif);
+
+}
+body{
+    position: relative;
+}
+
+
+// Title, tag e links socials
+.flex--main{
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+    justify-content: center;
+
+
+.img--bg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+}
+    p.tag--main{
+        color:$cor-principal;
+        font-size: 14px;
+        font-family: $font-secundaria;
+        margin: 0 0 5px 2px ;
+        text-align: left;
+    }
+
+    h1.title--main{
+        font-size: 70px;
+        font-family: $font-principal;
+        color: $cor-principal;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+        letter-spacing: -2px;
+    }
+
+    ul.social{
+        padding: 0;
+        margin: 20px 0 5px 5px ;
+        li{
+            display: inline-block;
+            margin-left: 15px;
+            a{
+                font-size: 16px;
+                font-family: $font-secundaria;
+                color: $cor-secundaria;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+        }
+        li:first-of-type{
+            margin: 0;
+        }
+    }
+}
+
+
+// Logo & Menu
+.header{
+    // visibility: hidden;
+    width: 100%;
+
+    padding: 45px 150px;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    .flex--header{
+        display: flex;
+        flex-direction: row;
+        justify-content:  space-around;;
+        align-items: center;
+        align-content: space-between;
+        .header--logo{
+            flex: 1;
+            img{
+                width: 220px;
+            }
+        }
+
+        .header--menu{
+        }
+        .menu--lines{
+            background: $cor-principal;
+            display: block;
+            height: 2px;
+            width: 25px;
+            margin: 4px 0;
+        }
+    }
+}
