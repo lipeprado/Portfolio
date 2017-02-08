@@ -1,4 +1,9 @@
+@import "normalize";
+@import "grid";
+@import "variaveis";
+
+
 *{
-    box-sizing: border-box;
-    font-family: cursive;
+    font-family: $font-principal;
+    color: $cor-principal;
 }
