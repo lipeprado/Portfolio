@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/lipeprado/Portfolio/issues"
   },
-  "homepage": "https://github.com/lipeprado/Portfolio#readme"
+  "homepage": "https://github.com/lipeprado/Portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
 }
